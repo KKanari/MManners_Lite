@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainForm!</string>
+    <string name="app_name">MManners Lite</string>
+<string name="setting01">設定1</string>
+<string name="setting02">設定2</string>
+<string name="setting03">設定3</string>
+<string name="setting04">設定4</string>
+<string name="setting05">設定5</string>
+<string name="data_dir">/data/data/</string>
+<string name="file_name">/setting.save</string>
+<string name="restrict">1</string>
+<string name="msg001">設定保存ファイルの読み込みに失敗しました。\nデフォルトの値で表示します。</string>
+<string name="msg002">ファイル作成に失敗しました。\nエラー内容：</string>
+<string name="msg003">設定の保存に失敗しました。\nエラー内容：</string>
+<string name="non_week">##</string>
+</resources>

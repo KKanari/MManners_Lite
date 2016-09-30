@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:id="@+id/linearLayoutBase" android:layout_height="wrap_content">
+
+<ScrollView android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:layout_width="fill_parent">
+	<LinearLayout android:id="@+id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+		<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<TextView android:layout_height="wrap_content" android:text="マナーモード入時間" android:id="@+id/textViewTitleOntime" android:layout_marginTop="0px" android:background="@color/title_background" android:textColor="@color/title_text" android:layout_width="wrap_content"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/textViewSettingnNo" android:layout_width="fill_parent" android:background="@color/title_background" android:gravity="right" android:paddingRight="10px"></TextView>
+		</LinearLayout>
+		
+		<TimePicker android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/timePickerOnTime"></TimePicker>
+		<TextView android:layout_height="wrap_content" android:id="@+id/textViewTitleOfftime" android:text="マナーモード切時間" android:background="@color/title_background" android:textColor="@color/title_text" android:layout_width="fill_parent"></TextView>
+		<TimePicker android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/timePickerOffTime"></TimePicker>
+		<TextView android:layout_height="wrap_content" android:id="@+id/textViewTitleWeek" android:text="曜日設定" android:layout_marginTop="0px" android:layout_width="fill_parent" android:textColor="@color/title_text" android:background="@color/title_background"></TextView>
+		
+		<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0">
+			<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkBoxSunday" android:text="日" android:layout_marginRight="13px"></CheckBox>
+			<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkBoxMonday" android:text="月" android:layout_marginRight="13px"></CheckBox>
+			<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkBoxTuesday" android:text="火" android:layout_marginRight="13px"></CheckBox>
+			<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkBoxWednesday" android:text="水" android:layout_marginRight="60px"></CheckBox>
+		</LinearLayout>
+		
+		<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkBoxThursday" android:layout_marginRight="13px" android:text="木"></CheckBox>
+			<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkBoxFriday" android:layout_marginRight="13px" android:text="金"></CheckBox>
+			<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkBoxSaturday" android:layout_marginRight="13px" android:text="土"></CheckBox>
+			<Button android:layout_height="wrap_content" android:id="@+id/buttonFinish" android:text="完了" android:layout_gravity="right" android:layout_marginRight="10px" android:layout_width="100px"></Button>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>
+</LinearLayout>

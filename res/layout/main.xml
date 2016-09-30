@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:id="@+id/linearLayoutBase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewSetting01" android:text="@string/setting01"></TextView><TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableLayoutSetting01"><TableRow android:layout_width="wrap_content" android:id="@+id/tableRowSetting01" android:layout_height="wrap_content"><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayoutEffective01"><ToggleButton android:text="ToggleButton01" android:layout_height="wrap_content" android:id="@+id/toggleButtonEffective01" android:layout_width="52px"></ToggleButton></LinearLayout>
+
+<TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="5px" android:id="@+id/tableLayoutTime01"><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowOnOff01"><TextView android:layout_height="wrap_content" android:text="ON" android:id="@+id/textViewOnSetting01" android:layout_width="42px"></TextView>
+<TextView android:layout_height="wrap_content" android:text="OFF" android:id="@+id/textViewOffSetting01" android:layout_width="42px"></TextView>
+</TableRow>
+
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowTime01"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewOnTimeSetting01" android:text="00:00"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:id="@+id/textViewOffTimeSetting01"></TextView>
+</TableRow>
+</TableLayout>
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayoutWeekSetting01" android:orientation="vertical"><TextView android:layout_height="wrap_content" android:id="@+id/textViewWeekSetting01" android:text="曜日設定" android:layout_width="125px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewWeek01" android:tag="@string/non_week"></TextView>
+</LinearLayout>
+
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayoutSettingButton01"><Button android:layout_width="wrap_content" android:text="設定" android:id="@+id/buttonSetting01" android:layout_marginLeft="5px" android:layout_height="42px"></Button></LinearLayout>
+</TableRow>
+</TableLayout>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewSetting02" android:layout_marginTop="10px" android:text="@string/setting02"></TextView><TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableLayoutSetting02"><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowSetting02"><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayoutEffective02"><ToggleButton android:text="ToggleButton01" android:layout_height="wrap_content" android:id="@+id/toggleButtonEffective02" android:layout_width="52px"></ToggleButton></LinearLayout>
+
+<TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="5px" android:id="@+id/tableLayoutTime02"><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowOnOff02"><TextView android:layout_height="wrap_content" android:text="ON" android:layout_width="42px" android:id="@+id/textViewOnSetting02"></TextView>
+<TextView android:layout_height="wrap_content" android:text="OFF" android:layout_width="42px" android:id="@+id/textViewOffSetting02"></TextView>
+</TableRow>
+
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowTime02"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:id="@+id/textViewOnTimeSetting02"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:id="@+id/textViewOffTimeSetting02"></TextView>
+</TableRow>
+</TableLayout>
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayoutWeekSetting02"><TextView android:layout_height="wrap_content" android:text="曜日設定" android:id="@+id/textViewWeekSetting02" android:layout_width="125px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewWeek02" android:tag="@string/non_week"></TextView>
+</LinearLayout>
+
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayoutSettingButton02"><Button android:layout_width="wrap_content" android:text="設定" android:layout_marginLeft="5px" android:layout_height="42px" android:id="@+id/buttonSetting02"></Button></LinearLayout>
+</TableRow>
+</TableLayout>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewSetting03" android:layout_marginTop="10px" android:text="@string/setting03"></TextView><TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableLayoutSetting03"><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowSetting03"><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayoutEffective03"><ToggleButton android:text="ToggleButton01" android:layout_height="wrap_content" android:id="@+id/toggleButtonEffective03" android:layout_width="52px"></ToggleButton></LinearLayout>
+
+<TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="5px" android:id="@+id/tableLayoutTime03"><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowOnOff03"><TextView android:layout_height="wrap_content" android:text="ON" android:layout_width="42px" android:id="@+id/textViewOnSetting03"></TextView>
+<TextView android:layout_height="wrap_content" android:text="OFF" android:layout_width="42px" android:id="@+id/textViewOffSetting03"></TextView>
+</TableRow>
+
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowTime03"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:id="@+id/textViewOnTimeSetting03"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:id="@+id/textViewOffTimeSetting03"></TextView>
+</TableRow>
+</TableLayout>
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayoutWeekSetting03"><TextView android:layout_height="wrap_content" android:text="曜日設定" android:id="@+id/textViewWeekSetting03" android:layout_width="125px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewWeek03" android:tag="@string/non_week"></TextView>
+</LinearLayout>
+
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayoutSettingButton03"><Button android:layout_width="wrap_content" android:text="設定" android:layout_marginLeft="5px" android:layout_height="42px" android:id="@+id/buttonSetting03"></Button></LinearLayout>
+</TableRow>
+</TableLayout>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewSetting04" android:layout_marginTop="10px" android:text="@string/setting04"></TextView><TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableLayoutSetting04"><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowSetting04"><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayoutEffective04"><ToggleButton android:text="ToggleButton01" android:layout_height="wrap_content" android:id="@+id/toggleButtonEffective04" android:layout_width="52px"></ToggleButton></LinearLayout>
+
+<TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="5px" android:id="@+id/tableLayoutTime04"><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowOnOff04"><TextView android:layout_height="wrap_content" android:text="ON" android:layout_width="42px" android:id="@+id/textViewOnSetting04"></TextView>
+<TextView android:layout_height="wrap_content" android:text="OFF" android:layout_width="42px" android:id="@+id/textViewOffSetting04"></TextView>
+</TableRow>
+
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowTime04"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:id="@+id/textViewOnTimeSetting04"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:id="@+id/textViewOffTimeSetting04"></TextView>
+</TableRow>
+</TableLayout>
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayoutWeekSetting04"><TextView android:layout_height="wrap_content" android:text="曜日設定" android:id="@+id/textViewWeekSetting04" android:layout_width="125px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewWeek04" android:tag="@string/non_week"></TextView>
+</LinearLayout>
+
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayoutSettingButton04"><Button android:layout_width="wrap_content" android:text="設定" android:layout_marginLeft="5px" android:layout_height="42px" android:id="@+id/buttonSetting04"></Button></LinearLayout>
+</TableRow>
+</TableLayout>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewSetting05" android:layout_marginTop="10px" android:text="@string/setting05"></TextView><TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableLayoutSetting05"><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowSetting05"><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayoutEffective05"><ToggleButton android:text="ToggleButton01" android:layout_height="wrap_content" android:id="@+id/toggleButtonEffective05" android:layout_width="52px"></ToggleButton></LinearLayout>
+
+<TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="5px" android:id="@+id/tableLayoutTime05"><TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowOnOff05"><TextView android:layout_height="wrap_content" android:text="ON" android:layout_width="42px" android:id="@+id/textViewOnSetting05"></TextView>
+<TextView android:layout_height="wrap_content" android:text="OFF" android:layout_width="42px" android:id="@+id/textViewOffSetting05"></TextView>
+</TableRow>
+
+<TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tableRowTime05"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:id="@+id/textViewOnTimeSetting05"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:id="@+id/textViewOffTimeSetting05"></TextView>
+</TableRow>
+</TableLayout>
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayoutWeekSetting05"><TextView android:layout_height="wrap_content" android:text="曜日設定" android:id="@+id/textViewWeekSetting05" android:layout_width="125px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewWeek05" android:tag="@string/non_week"></TextView>
+</LinearLayout>
+
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayoutSettingButton05"><Button android:layout_width="wrap_content" android:text="設定" android:layout_marginLeft="5px" android:layout_height="42px" android:id="@+id/buttonSetting05"></Button></LinearLayout>
+</TableRow>
+</TableLayout>
+<Button android:layout_height="wrap_content" android:id="@+id/buttonClose" android:layout_gravity="right" android:layout_marginRight="10px" android:layout_marginTop="20px" android:text="閉じる" android:layout_width="100px"></Button>
+</LinearLayout>
